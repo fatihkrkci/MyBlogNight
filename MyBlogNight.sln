@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlogNight.EntityLayer", "MyBlogNight.EntityLayer\MyBlogNight.EntityLayer.csproj", "{0353339D-32D9-414E-AE7A-7D01B9ED8998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlogNight.EntityLayer", "MyBlogNight.EntityLayer\MyBlogNight.EntityLayer.csproj", "{0353339D-32D9-414E-AE7A-7D01B9ED8998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlogNight.DataAccessLayer", "MyBlogNight.DataAccessLayer\MyBlogNight.DataAccessLayer.csproj", "{525F42E9-7352-403F-B1A2-64D190430CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlogNight.BusinessLayer", "MyBlogNight.BusinessLayer\MyBlogNight.BusinessLayer.csproj", "{AB4D77BA-DC9E-45DA-9922-2BD45B2A8E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlogNight.DtoLayer", "MyBlogNight.DtoLayer\MyBlogNight.DtoLayer.csproj", "{C4B37FB5-DBD7-4AD6-ADA5-6BD85C8FF2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlogNight.PresentationLayer", "MyBlogNight.PresentationLayer\MyBlogNight.PresentationLayer.csproj", "{7FCC8F49-4A73-4654-8C12-808E15621FF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{0353339D-32D9-414E-AE7A-7D01B9ED8998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0353339D-32D9-414E-AE7A-7D01B9ED8998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0353339D-32D9-414E-AE7A-7D01B9ED8998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525F42E9-7352-403F-B1A2-64D190430CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525F42E9-7352-403F-B1A2-64D190430CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525F42E9-7352-403F-B1A2-64D190430CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525F42E9-7352-403F-B1A2-64D190430CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4D77BA-DC9E-45DA-9922-2BD45B2A8E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4D77BA-DC9E-45DA-9922-2BD45B2A8E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4D77BA-DC9E-45DA-9922-2BD45B2A8E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4D77BA-DC9E-45DA-9922-2BD45B2A8E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B37FB5-DBD7-4AD6-ADA5-6BD85C8FF2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B37FB5-DBD7-4AD6-ADA5-6BD85C8FF2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B37FB5-DBD7-4AD6-ADA5-6BD85C8FF2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B37FB5-DBD7-4AD6-ADA5-6BD85C8FF2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCC8F49-4A73-4654-8C12-808E15621FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCC8F49-4A73-4654-8C12-808E15621FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCC8F49-4A73-4654-8C12-808E15621FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCC8F49-4A73-4654-8C12-808E15621FF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
